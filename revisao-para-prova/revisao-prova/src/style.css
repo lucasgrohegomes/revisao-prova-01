@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.border-container{
+    background-color: darkred;
+    color: white;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    
+
+}
+
+.gallery-shelf img{
+    height: 100px;
+    padding: 30px;
+}
