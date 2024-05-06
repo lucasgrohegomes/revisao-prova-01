@@ -4,8 +4,10 @@
 }
 
 .border-container{
+    height: 50px;
     background-color: darkred;
     color: white;
+    text-align: center;
 }
 
 .gallery-container{
@@ -20,4 +22,40 @@
 .gallery-shelf img{
     height: 100px;
     padding: 30px;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    padding-bottom: 10px;
+}
+
+.list h3{
+    color: darkred;
+}
+
+@media screen and (max-width: 430px){
+
+    body{
+        min-width: 100vw;
+    }
+
+    .border-container{
+        height: 110px;
+        width: 100vw;
+    }
+
+    .gallery-container{
+        width: 100vw;
+        
+        
+    }
+
+    .gallery-shelf img{
+        height: 155px;
+        align-items: center;
+    }
 }
