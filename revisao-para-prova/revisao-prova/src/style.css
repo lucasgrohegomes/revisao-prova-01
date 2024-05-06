@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
 }
-
 .border-container{
     height: 50px;
     background-color: darkred;
@@ -16,7 +15,6 @@
     width: 100vw;
     align-items: center;
     
-
 }
 
 .gallery-shelf img{
@@ -50,8 +48,7 @@
 
     .gallery-container{
         width: 100vw;
-        
-        
+
     }
 
     .gallery-shelf img{
